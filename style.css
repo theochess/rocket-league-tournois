@@ -27,6 +27,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    resize: none;
 }
 
 textarea {
@@ -45,4 +46,22 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #0056b3;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.zoom-image {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.zoom-image:hover {
+    transform: scale(1.05);
 }
