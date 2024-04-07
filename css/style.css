@@ -1,12 +1,22 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
     padding: 20px;
+    background-image: url('../imgs/bkg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
+
 
 h2 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
+    font-size: 50px;
 }
 
 form {
@@ -48,13 +58,14 @@ button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    margin: 20px auto;
+
+.images-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
 }
+
 
 .zoom-image {
     width: 100px;
@@ -64,4 +75,30 @@ button[type="submit"]:hover {
 
 .zoom-image:hover {
     transform: scale(1.05);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-column-gap: 30px;
+    margin-top: 50px;
+}
+
+.linktree-images {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.linktree-images img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.linktree-images img:hover {
+    transform: scale(1.1);
 }
