@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const imageLink = document.querySelector('.image-container a');
+    const imageLink = document.querySelector('.linktree-images img');
     imageLink.addEventListener('click', function (event) {
         event.preventDefault(); // Prevent default link behavior
         const url = this.getAttribute('href');
