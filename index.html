@@ -7,32 +7,50 @@
     <title>Rocket League Tournois</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-image: url('imgs/bkg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+    </style>
 </head>
 
 <body>
-    <h2>Rocket League Tournois</h2>
-    <form action="https://formsubmit.co/rocket.pro.tournois@gmail.com" method="POST">
-        <input type="text" name="name" placeholder="Votre Nom" required><br>
-        <input type="email" name="email" placeholder="Votre Email" required><br>
+    <div id="total">
+        <h2>Rocket League Tournois</h2>
+        <form action="https://formsubmit.co/rocket.pro.tournois@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Votre Nom" required><br>
+            <input type="email" name="email" placeholder="Votre Email" required><br>
 
-        <input type="text" name="profileUrl" placeholder="URL de votre profile RL Tracker"
-            pattern="https:\/\/rocketleague\.tracker\.network\/rocket-league\/profile\/.*"
-            title="Entrez une URL suivant le format : https://rocketleague.tracker.network/rocket-league/profile/*"
-            required><br>
+            <input type="text" name="profileUrl" placeholder="URL de votre profile RL Tracker"
+                pattern="https:\/\/rocketleague\.tracker\.network\/rocket-league\/profile\/.*"
+                title="Entrez une URL suivant le format : https://rocketleague.tracker.network/rocket-league/profile/*"
+                required><br>
 
-        <textarea name="message" placeholder="Message (optionel)"></textarea><br>
-        <button type="submit">Envoyé</button>
-    </form>
-    <div class="grid-container">
-        <a class="linktree-images" href="https://linktr.ee/7cozty" target="_blank">
-            <img src="imgs/7coz.png" alt="Linktree 7cozty" class="zoom-image">
-        </a>
-        <a class="linktree-images" href="https://linktr.ee/larks_rl" target="_blank">
-            <img src="imgs/larks.png" alt="Linktree larks" class="zoom-image">
-        </a>
-        <a class="linktree-images" href="https://linktr.ee/tryxzei_" target="_blank">
-            <img src="imgs/try.png" alt="Linktree tryxzei_" class="zoom-image">
-        </a>
+            <textarea name="message" placeholder="Message (optionel)"></textarea><br>
+            <button type="submit">Envoyé</button>
+        </form>
+        <div class="grid-container">
+            <a class="linktree-images" href="https://linktr.ee/7cozty" target="_blank">
+                <img src="imgs/7coz.png" alt="Linktree 7cozty" class="zoom-image">
+            </a>
+            <a class="linktree-images" href="https://linktr.ee/larks_rl" target="_blank">
+                <img src="imgs/larks.png" alt="Linktree larks" class="zoom-image">
+            </a>
+            <a class="linktree-images" href="https://linktr.ee/tryxzei_" target="_blank">
+                <img src="imgs/try.png" alt="Linktree tryxzei_" class="zoom-image">
+            </a>
+        </div>
     </div>
 </body>
 
