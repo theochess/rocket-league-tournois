@@ -1,3 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url('https://i.ibb.co/cc0PG5z/bkg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
 h2 {
     text-align: center;
     color: #ffffff;
