@@ -12,9 +12,13 @@
 <body>
     <div id="content-container">
         <h2>Rocket League Tournois</h2>
-        <form action="https://formsubmit.co/rocket.pro.tournois@gmail.com" method="POST">
-            <input type="text" name="name" placeholder="Nom" required>
+        <form target="_blank" action="https://formsubmit.co/rocket.pro.tournois@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Nom Prénom" required>
             <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="tracker" placeholder="RL tracker"
+                pattern="https:\/\/rocketleague\.tracker\.network\/rocket-league\/profile\/.*"
+                title="Entrez une URL suivant le format : https://rocketleague.tracker.network/rocket-league/profile/*"
+                required>
 
             <button type="submit">Send</button>
         </form>
