@@ -12,12 +12,34 @@
 <body>
     <div id="content-container">
         <h2>Rocket League Tournois</h2>
-        <form target="_blank" action="https://formsubmit.co/rocket.pro.tournois@gmail.com" method="POST">
-            <input type="text" name="name" placeholder="Nom Prénom" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <textarea type="text" name="message" placeholder="Lien RL Tracker" required></textarea>
+        <form action="https://formsubmit.co/3639a83e5394d40d58643c6908de4150" method="POST">
+            <div class="mb-3">
+                <label class="form-label">Full Name</label>
+                <input name="name" type="text" class="form-control" required />
+            </div>
 
-            <button type="submit">Envoyé</button>
+            <div class="mb-3">
+                <label class="form-label">Email address</label>
+                <input name="email" type="email" class="form-control" required />
+                <div id="emailHelp" class="form-text">
+                    Don't worry, we won't share it with anyone else.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Phone (optional)</label>
+                <input name="phone" \type="tel" class="form-control" />
+                <div id="phoneHelp" class="form-text">
+                    If you rather talk to a human directly.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Your Message</label>
+                <textarea name="message" class="form-control" rows="3" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
         </form>
         <div class="grid-container">
             <a class="linktree-images" href="https://linktr.ee/7cozty" target="_blank">
