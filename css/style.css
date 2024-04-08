@@ -19,8 +19,6 @@ body {
 }
 
 
-
-
 h2 {
     text-align: center;
     color: #ffffff;
@@ -49,7 +47,7 @@ textarea {
 }
 
 textarea {
-    height: 150px;
+    height: 60px;
 }
 
 button[type="submit"] {
